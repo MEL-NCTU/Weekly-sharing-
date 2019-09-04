@@ -3,7 +3,7 @@
 * Meeting time:
 Every Wednesday 15:30
 ## HackMD 連結
-* hackmd.io
+* [hackmd.io](https:/hackmd.io/)
 ![](https://i.imgur.com/Dw79Q1l.jpg)
 
 ## Paper 參考連結
