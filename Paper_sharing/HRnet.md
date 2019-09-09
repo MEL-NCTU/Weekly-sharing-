@@ -14,34 +14,34 @@ high-resolution representations through repeatedly fusing the representations fr
 
 **Parallel Multi-Resolution Convolutions**
 <p align="center">
-  <img src="./figure/HRnet1.PNG"><br>
+  <img src="./Images/HRnet1.PNG"><br>
 </p>
 
 **Repeated Multi-Resolution Fusions**
 The goal of the fusion module is to exchange the information across multi-resolution representations. 
 
 <p align="center">
-  <img src="./figure/HRnet2.PNG"><br>
+  <img src="./Images/HRnet2.PNG"><br>
 </p>
 
 <p align="center">
-  <img src="./figure/HRnet3.PNG"><br>
+  <img src="./Images/HRnet3.PNG"><br>
 </p>
 
 ## Results:
 
 <p align="center">
-  <img src="./figure/HRnet4.PNG"><br>
+  <img src="./Images/HRnet4.PNG"><br>
 </p>
 Semantic segmentation results on Cityscapes val(single scale and no ﬂipping). The GFLOPs is calculated on the input size 1024 × 2048.
 
 <p align="center">
-  <img src="./figure/HRnet5.PNG"><br>
+  <img src="./Images/HRnet5.PNG"><br>
 </p>
 Semantic segmentation results on PASCAL-Context. The methods are evaluated on 59 classes and 60 classes.
 
 <p align="center">
-  <img src="./figure/HRnet6.PNG"><br>
+  <img src="./Images/HRnet6.PNG"><br>
 </p>
 Semantic segmentation results on LIP. 
 
