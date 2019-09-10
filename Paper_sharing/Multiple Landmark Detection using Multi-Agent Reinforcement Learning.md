@@ -27,12 +27,8 @@ The agent learns to take an action a at every step (in a state s) towards the ta
 ![](https://i.imgur.com/c2oeB3I.jpg)
 ![](https://i.imgur.com/SGyEIvK.jpg)
 
-
-
-
-
-
-
+## Conclution
+>In this paper we formulated the problem of multiple anatomical landmark detection as a multi-agent reinforcement learning scenario, we also introduced CollabDQN, a Collaborative DQN for landmark detection in brain and cardiac MRI volumes. We train K agents together looking for K landmarks. The agents share their convolutional layer weights. In this fashion we exploit the knowledge transferred by each agent to teach the other agents. We achieve significantly better performance than the next best method of decreasing the error by more than 1mm while taking less time to train and less memory than training K agents serially. 
 
 ## Reference
 Multiple Landmark Detection using Multi-Agent Reinforcement Learning
