@@ -16,10 +16,13 @@ The agent learns to take an action a at every step (in a state s) towards the ta
 
 ### POMDP ( Partially Observable Markov Decision Process)
 ![](https://images0.cnblogs.com/blog/489049/201401/132312526273.jpg)
-### Deep Q-learning
-![](https://i.imgur.com/pLQDOi6.jpg)
+![](https://artint.info/figures/ch09/pomdp.png)
 ### MARL
 ![](https://i.imgur.com/aY3K8x6.jpg)
+### Deep Q-learning
+![](./Images/Screenshot-2019-04-16-at-5.46.01-PM.png)
+![](https://i.imgur.com/pLQDOi6.jpg)
+
 
 ---
 
