@@ -27,7 +27,7 @@ CE-Net : Context Encoder Network for 2D  Medical Image Segmentation
     
 
 >My Thoughts :
->In the encoder stage, network is trying to 'understand' a picture, it produces low-level features like edges, texture, etc. As the network goes deeper, these features are no longer geometric elements, they are generalized rules, may be the relation of different low-level features(ex: relative position of edges),or something even deeper that's beyond comprehension. 
+>In the encoder stage, network is trying to 'understand' a picture, it produces low-level features like edges, texture, etc. As the network goes deeper, these features are no longer geometric elements, they are generalized rules, may be the relation of different low-level features(ex: relative position of edges),or something so deep that's beyond comprehension. 
 After learnig these rules, the network generates results by making pixel-wise prediction based on the understanding of input pictures.
 >
 
