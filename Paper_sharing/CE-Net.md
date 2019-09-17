@@ -115,8 +115,6 @@ https://zhuanlan.zhihu.com/p/30182988
 - WTF is high-level feature?
 https://www.zhihu.com/question/264702008
 
-:::info
 **Jimmy Li** @NCTU
-:::
 
 ###### tags: `Segmentation` `2D Medical Image` `CE-net` `atrous convolution`
