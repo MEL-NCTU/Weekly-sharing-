@@ -93,7 +93,7 @@ After learnig these rules, the network generates results by making pixel-wise pr
 
 ![](https://github.com/MEL-NCTU/Weekly-sharing-/blob/master/Paper_sharing/Images/CE-Net_OCT.png?raw=true)
 
-* Performs good in multi-class segmentation as well
+* Performs well in multi-class segmentation as well
 
 ## Conclusion
 ![](https://github.com/MEL-NCTU/Weekly-sharing-/blob/master/Paper_sharing/Images/CE-Net_conclusion.png?raw=true)
