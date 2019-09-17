@@ -23,12 +23,12 @@ CE-Net : Context Encoder Network for 2D  Medical Image Segmentation
 - **Encoder-Decoder Concept**
 
     - Encoder : extract high level features from pictures
-    -  Decoder : generate result from extracted features
+    - Decoder : generate result from extracted features
     
 
 >My Thoughts :
->During the Encoder stage, network is trying to 'understand' a picture, it produces low-level features such as edges, texture, etc. As the network goes deeper, these features are no longer pictures or something that can be visulized, they are generalized rules, may be the relation between different low-level features(context information) like relative position of two edges, or something deeper that's beyond comprehension. 
-After understanding a picture, the network use these rules to generate the result in the decoder stage.
+>During the encoder stage, network is trying to 'understand' a picture, it produces low-level features like edges, texture, etc. As the network goes deeper, these features are no longer geometric elements, they are generalized rules, may be the relation between different low-level features(ex: location of edges),or something even deeper that's beyond comprehension. 
+After learnig these rules, the network generates results by making pixel-wise prediction based on the understanding of input pictures.
 >
 
 - **General Ideas of How This Model Works**
