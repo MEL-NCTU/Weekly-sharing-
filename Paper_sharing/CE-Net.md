@@ -3,10 +3,10 @@ CE-Net : Context Encoder Network for 2D  Medical Image Segmentation
 [TOC]
 
 ## Introduction
-Problem of Unet based approch segmentation:
+**Problem of Unet based approch segmentation:**
 - **Pooling** and **strided convolution** lead to loss of spatial information
 
-Solution : Context Encoder Network (**CE-Net**)
+**Solution :** Context Encoder Network (**CE-Net**)
 
 - Dense Atrous Convolution block (**DAC**)
 - Residual Multi-Kernal Pooling block (**RMP**)
