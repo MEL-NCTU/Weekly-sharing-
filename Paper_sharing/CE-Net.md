@@ -43,7 +43,7 @@ CE-Net : Context Encoder Network for 2D  Medical Image Segmentation
 </p>
 
 * Similar to Inception Model
-* Using atrous convolutions with different **atrous rate**
+* Difference : Using atrous convolutions with different **atrous rate**
 * Extract features from different scale
 
 
