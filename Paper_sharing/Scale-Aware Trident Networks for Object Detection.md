@@ -14,6 +14,11 @@
 ![](https://i.imgur.com/ySk9hDs.jpg)
 * ### Trident block
 ![](https://i.imgur.com/7Ucvwbf.jpg)      ![](https://i.imgur.com/rCmm0EN.jpg)
+* ### Scaleaware Training Scheme
+#### We propose a scale-aware training scheme to improve the scale awareness of every branch and avoid training objects of extreme scales on mismatched branches.Specifically, for an Region-of-Interest (RoI) with width w and height h on the input image(before resize), it is valid for branch i when:
+![](https://i.imgur.com/ZQac1CA.png)
+
+
 
 
 
@@ -23,7 +28,8 @@
 ## Result
 ![](https://i.imgur.com/qDFcVOT.jpg)
 ![](https://i.imgur.com/FUDaXZE.jpg) ![](https://i.imgur.com/Zv0CHax.jpg)
-![](https://i.imgur.com/F1wr2o0.jpg)
+![](https://i.imgur.com/F1wr2o0.jpg) ![](https://i.imgur.com/muBLvlS.jpg)
+
 ![](https://i.imgur.com/2XZqQzX.jpg)
 
 
