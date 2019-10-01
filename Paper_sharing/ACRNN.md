@@ -61,3 +61,16 @@ Attention for CNN & RNN layers
 > Reviewed by Andrew Yang 2019/10/02
 
 
+# Layers
+> l1-l2: The first two stacked convolutional layers use 32 filters with a receptive field of (3,5) and stride of (1,1). This is followed by a max-pooling with a (4,3) stride to reduce the dimensions of feature maps. ReLU activation function is used.  
+
+> l3-l4: The next two convolutional layers use 64 filters with a receptive field of (3,1) and stride of (1,1), and is used to learn local patterns along the frequency dimension. This is followed by a max-pooling with a (4,1) stride. ReLU activation function is used.
+> l5-l6: The following pair of convolutional layers uses 128 filters with a receptive field of (1,5) and stride of (1,1), and is used to learn local patterns along the time dimension. This is followed by a max-pooling with a (1,3) stride. ReLU activation function is used.  
+
+> l7-l8: The subsequent two convolutional layers use 256 filters with a receptive field of (3,3) and stride of (1,1) to learn joint time-frequency characteristics. This is followed by a max-pooling of a (2,2) stride. ReLU activation function is used.
+
+
+> l9-l10: Two bidirectional GRU layers with 256 cells are used for temporal summarization, and tanh activation function is used. 
+
+> Dropout with probability of 0.5 is used for each GRU layer to avoid overfitting. Batch normalization [10] is applied to the output of the convolutional layers to speed up training. L2-regularization is applied to the weights of each layer with a coefficient 0.0001.
+
