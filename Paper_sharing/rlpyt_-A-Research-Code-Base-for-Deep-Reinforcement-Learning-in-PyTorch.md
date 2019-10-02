@@ -25,7 +25,7 @@ Once that runs smoothly, it is straightforward to explore the more sophisticated
 
 ## Result
 ### Mujoco performance
-
+https://gym.openai.com/envs/#mujoco
 Performance for the on-policy algorithms is measured as the average trajectory return across the batch collected at each epoch. Performance for the off-policy algorithms is measured once every 10,000 steps by running the deterministic policy (or, in the case of SAC, the mean policy) without action noise for ten trajectories, and reporting the average return over those test trajectories.
 ![](https://i.imgur.com/AX7MHFk.png)
 
