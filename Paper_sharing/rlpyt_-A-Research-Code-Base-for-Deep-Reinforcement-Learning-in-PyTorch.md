@@ -7,6 +7,7 @@
 >We are pleased to share rlpyt, which implements all three algorithm families built on a shared, optimized infrastructure, in a single repository. rlpyt contains modular implementations of many common deep RL algorithms in Python using PyTorch.
 
 ## Method
+![](https://i.imgur.com/x0gM28z.png)
 For sampling, rlpyt offers the following configurations
 ### Serial
 Agent and environments execute within one Python process.
