@@ -7,6 +7,7 @@
 >We are pleased to share rlpyt, which implements all three algorithm families built on a shared, optimized infrastructure, in a single repository. rlpyt contains modular implementations of many common deep RL algorithms in Python using PyTorch.
 
 ## Method
+![](https://i.imgur.com/x0gM28z.png)
 For sampling, rlpyt offers the following configurations
 ### Serial
 Agent and environments execute within one Python process.
@@ -23,6 +24,7 @@ When creating or modifying agents, models, algorithms, and environments, serial 
 Once that runs smoothly, it is straightforward to explore the more sophisticated infrastructures for parallel sampling, multi-GPU optimization, and asynchronous sampling.
 
 ## Result
+https://gym.openai.com/envs/#mujoco
 ### Mujoco performance
 
 Performance for the on-policy algorithms is measured as the average trajectory return across the batch collected at each epoch. Performance for the off-policy algorithms is measured once every 10,000 steps by running the deterministic policy (or, in the case of SAC, the mean policy) without action noise for ten trajectories, and reporting the average return over those test trajectories.
