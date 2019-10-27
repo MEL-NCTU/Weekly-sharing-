@@ -2,7 +2,7 @@
 
 [TOC]
 
-
+https://hackmd.io/@rACDTXr0Ty-ojW6DM-B35w/H1e6N8iuH
 ## Training Procedure Analysis
 ### 1.Dynamic Masking:
 > 使用Dynamic Mask 取代 原模型的Static Mask
