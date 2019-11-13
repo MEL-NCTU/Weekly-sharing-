@@ -27,7 +27,7 @@ https://arxiv.org/pdf/1906.08237.pdf
 )
 
 
-```typescript
+```python=
 class XLNetRelativeAttention(nn.Module):
     def __init__(self, config):
         super(XLNetRelativeAttention, self).__init__()
@@ -244,7 +244,7 @@ class XLNetRelativeAttention(nn.Module):
 
 ---
 
-```typescript
+```python=
 class XLNetModel(XLNetPreTrainedModel):
     r"""
     Outputs: `Tuple` comprising various elements depending on the configuration (config) and inputs:
