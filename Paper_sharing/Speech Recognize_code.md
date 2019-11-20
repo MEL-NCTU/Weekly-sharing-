@@ -34,6 +34,10 @@ print("good 的反義詞： {}".format(good.lemmas()[0].antonyms()))
 school = wn.synset('school.n.01')
 print("school的上位詞: {}".format(school.hypernyms()))
 print("school的下位詞: {}".format(school.hyponyms()))
+
+#school的上位詞: [Synset('educational_institution.n.01')]
+#school的下位詞: [Synset('academy.n.03'), Synset('alma_mater.n.01'), Synset('conservatory.n.01'), Synset('correspondence_school.n.01'), Synset('crammer.n.03'), Synset('dance_school.n.01'), Synset('dancing_school.n.01'), Synset('day_school.n.02'), Synset('direct-grant_school.n.01'), Synset('driving_school.n.01'), Synset('finishing_school.n.01'), Synset('flying_school.n.01'), Synset('grade_school.n.01'), Synset('graduate_school.n.01'), Synset('language_school.n.01'), Synset('night_school.n.01'), Synset('nursing_school.n.01'), Synset('private_school.n.01'), Synset('public_school.n.01'), Synset('religious_school.n.01'), Synset('riding_school.n.01'), Synset('secondary_school.n.01'), Synset('secretarial_school.n.01'), Synset('sunday_school.n.01'), Synset('technical_school.n.01'), Synset('training_school.n.01'), Synset('veterinary_school.n.01')]
+
 ```  
 ### More relation   
 ```
