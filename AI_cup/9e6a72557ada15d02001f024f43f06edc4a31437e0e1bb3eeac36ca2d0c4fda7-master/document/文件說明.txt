@@ -1,0 +1,14 @@
+1. 文件名稱:Answer_Format_Specification
+   文件目的:告知團隊回傳的檔案內容格式
+
+2. 文件名稱:API_Specification
+   文件目的:團隊回傳檔案給server的api
+
+3. 文件名稱:Shell_Script
+   文件目的:團隊需提供一支 API 告訴相關執行資訊，方便主辦單位測試環境是否在正常執行狀態(將於11/8前公告文件內容、範例程式、影片說明檔-Shell_Script.mp4)
+
+4. 文件名稱:Question_Specification
+   文件目的:告知團隊主辨單位提供的題目格式
+
+5. 文件名稱:Schedule_Plan
+   文件目的:告知團隊測試時程表及正式賽相關時程規劃
