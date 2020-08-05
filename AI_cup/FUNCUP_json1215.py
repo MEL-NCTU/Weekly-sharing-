@@ -1,5 +1,5 @@
 #機器安裝
-#pip install https://github.com/huggingface/pytorch-transformers/archive/1.2.0.zip
+#pip3 install https://github.com/huggingface/pytorch-transformers/archive/1.2.0.zip
 #rm -rf bert-chinese-qa*
 #wget -q --no-check-certificate -r 'https://drive.google.com/uc?export=download&id=1GQtGFd-1AvZHZuYckhA3xqvvpDk-x5DW' -O bert-chinese-qa.zip
 #unzip bert-chinese-qa.zip -d bert-chinese-qa
@@ -207,15 +207,15 @@ tokenizer = tokenizer_class.from_pretrained('bert-base-chinese', do_lower_case=T
 #記得上傳json檔
 import json
 
-path_Q='FGC_release_A.json'
-path_A='FGC_release_A_answers.json'
+path_Q='http://fgcgame.stpi.narl.org.tw/json/ FE9043C9-E1BB-4C2F-921E-DD06FD6118E0/305C7DBE-7CBF-490C-9E8E-937A8C1E3927/question.json '
+#path_A='FGC_release_A_answers.json'
 
 #檔案編碼方式：UTF-8
 with open(path_Q, 'r',encoding="utf-8") as reader:
     QA_Q = json.loads(reader.read())
 
-with open(path_A, 'r',encoding="utf-8") as reader:
-    QA_A = json.loads(reader.read())
+#with open(path_A, 'r',encoding="utf-8") as reader:
+#    QA_A = json.loads(reader.read())
 
 Q_tolo=0
 A_bad=0
@@ -265,8 +265,8 @@ for i in range(tolo):
         AA=A1
 
     #回傳格式
-    print('ManagerIdentity','NodeIdentity',QID,AA,sep='\t', end='\n')
+    print('305C7DBE-7CBF-490C-9E8E-937A8C1E3927','FE9043C9-E1BB-4C2F-921E-DD06FD6118E0',QID,AA,sep='\t', end='\n')
 
-print('答的出來的比率:',Q_tolo-A_bad,'/',Q_tolo,'\t',float(Q_tolo-A_bad)/float(Q_tolo)*100,'%')
+#print('答的出來的比率:',Q_tolo-A_bad,'/',Q_tolo,'\t',float(Q_tolo-A_bad)/float(Q_tolo)*100,'%')
 
 
