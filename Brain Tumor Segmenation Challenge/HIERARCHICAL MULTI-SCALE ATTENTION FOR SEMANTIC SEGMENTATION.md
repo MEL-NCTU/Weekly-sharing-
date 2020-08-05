@@ -1,7 +1,6 @@
 # HIERARCHICAL MULTI-SCALE ATTENTION FOR SEMANTIC SEGMENTATION
-:::info
 多尺度感知的改良 by Nvidia 2020
-:::
+
 ## Introduction
 同一張圖片中，可能因為辨識物體大小的差異影響到model辨識的精準度，Liang-Chieh Chen於2015年提出過輸入不同分辨率的影像來使model學習各自對應的物體之attention權重。
 ![](https://i.imgur.com/S6hLnWV.jpg)
@@ -17,7 +16,7 @@
 ![](https://i.imgur.com/dnQ4NdQ.jpg)
 ### backbone
 - study: ResNet-50
-- SOTA result: ==HRNet-OCR==
+- SOTA result: HRNet-OCR
 ### Single Scale vs. multi scale 
 ![](https://i.imgur.com/GH8i2h8.jpg)
 
